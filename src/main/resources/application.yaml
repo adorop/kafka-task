@@ -1,0 +1,11 @@
+kafka-task:
+  topic: "tweets_topic"
+  tweet:
+    keywords:
+      - "big data"
+      - "ai"
+      - "machine learning course"
+    languageCode: "en"
+    countryCode: "BY"
+
+spring.kafka.producer.value-serializer: "org.springframework.kafka.support.serializer.JsonSerializer"
